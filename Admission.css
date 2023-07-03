@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-box{
+    width:170vm;
+    height: 200vh;
+    background: linear-gradient(to top left, #529ef5, #a3edf7);
+}
+
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding:20px 40px;
+    /*background-color: #ffffff09;*/
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 40px;
+    box-shadow: 4px 4px 7px #2773a5;
+    z-index:2;
+}
+
+h1{
+    font-size:2.5rem;
+    color:#212121;
+}
+
+.Reg-header p {
+    font-size:0.9rem;
+    color: #555;
+}
+
+.Reg-body{
+    margin:20px 0px 0px;
+
+}
+
+.Reg-body p{
+    display: block;
+    margin-top:15px;
+}
+
+.Reg-body p{
+    display:block;
+    font-weight:bold;
+}
+
+.Reg-body p input{
+    width:100%;
+    padding:10px;
+    border:2px solid #cccc;
+    border-radius:4px;
+    font-size: 1rem;
+    margin-top:4px;
+}
+
+.Reg-body p input[type="submit"]{
+    background-color:#2981d4;
+    color:white;
+    cursor:pointer;
+}
+
+.Reg-body p input[type="submit"]:hover {
+    background-color:#07427a;
+}
+
+.Reg-footer p {
+color: #555;
+text-align: center;
+margin-top: 15px;
+}
+
+.Reg-footer p a {
+    color:#2981d4;
+}
+
+.Reg-footer p a:hover {
+    color:#053c6e;
+}
+
+.circle {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:linear-gradient(to top right,#ffffff33, #ffffffff );
+    position:absolute;
+}
+
+.c1{
+    top:100px;
+    right:20px;
+}
+
+.c2{
+    left:20px;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 85px;
+    background-image: linear-gradient(to right, #041308, #0b3317);
+}
+
+nav .log p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav .ul1{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
